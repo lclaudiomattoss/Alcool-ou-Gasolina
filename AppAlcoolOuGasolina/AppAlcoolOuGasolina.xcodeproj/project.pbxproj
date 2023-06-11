@@ -17,6 +17,8 @@
 		A2D8E3A52A33D611004C74CF /* AppAlcoolOuGasolinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8E3A42A33D611004C74CF /* AppAlcoolOuGasolinaUITests.swift */; };
 		A2D8E3A72A33D611004C74CF /* AppAlcoolOuGasolinaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8E3A62A33D611004C74CF /* AppAlcoolOuGasolinaUITestsLaunchTests.swift */; };
 		A2D8E3B72A33DA82004C74CF /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8E3B62A33DA82004C74CF /* HomeScreen.swift */; };
+		A2D8E3BA2A358063004C74CF /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8E3B92A358063004C74CF /* CalculatorVC.swift */; };
+		A2D8E3BE2A3580FD004C74CF /* CalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8E3BD2A3580FD004C74CF /* CalculatorScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A2D8E3A42A33D611004C74CF /* AppAlcoolOuGasolinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlcoolOuGasolinaUITests.swift; sourceTree = "<group>"; };
 		A2D8E3A62A33D611004C74CF /* AppAlcoolOuGasolinaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlcoolOuGasolinaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A2D8E3B62A33DA82004C74CF /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		A2D8E3B92A358063004C74CF /* CalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVC.swift; sourceTree = "<group>"; };
+		A2D8E3BD2A3580FD004C74CF /* CalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		A2D8E37F2A33D60E004C74CF /* AppAlcoolOuGasolina */ = {
 			isa = PBXGroup;
 			children = (
+				A2D8E3B82A358044004C74CF /* Calculator */,
 				A2D8E3B42A33DA40004C74CF /* Home */,
 				A2D8E3802A33D60E004C74CF /* AppDelegate.swift */,
 				A2D8E3822A33D60E004C74CF /* SceneDelegate.swift */,
@@ -142,6 +147,23 @@
 			isa = PBXGroup;
 			children = (
 				A2D8E3B62A33DA82004C74CF /* HomeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		A2D8E3B82A358044004C74CF /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				A2D8E3BB2A3580C9004C74CF /* Screen */,
+				A2D8E3B92A358063004C74CF /* CalculatorVC.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		A2D8E3BB2A3580C9004C74CF /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A2D8E3BD2A3580FD004C74CF /* CalculatorScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -278,6 +300,8 @@
 			files = (
 				A2D8E3852A33D60E004C74CF /* HomeVC.swift in Sources */,
 				A2D8E3B72A33DA82004C74CF /* HomeScreen.swift in Sources */,
+				A2D8E3BE2A3580FD004C74CF /* CalculatorScreen.swift in Sources */,
+				A2D8E3BA2A358063004C74CF /* CalculatorVC.swift in Sources */,
 				A2D8E3812A33D60E004C74CF /* AppDelegate.swift in Sources */,
 				A2D8E38B2A33D60E004C74CF /* AppAlcoolOuGasolina.xcdatamodeld in Sources */,
 				A2D8E3832A33D60E004C74CF /* SceneDelegate.swift in Sources */,
